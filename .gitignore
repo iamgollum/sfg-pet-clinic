@@ -1,5 +1,20 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#Gradle temporary files
+target/
 /target/
+
+#Maven
 !.mvn/wrapper/maven-wrapper.jar
+pom.xml.*
 
 ### STS ###
 .apt_generated
