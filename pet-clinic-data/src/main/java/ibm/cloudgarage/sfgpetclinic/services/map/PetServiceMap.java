@@ -1,11 +1,11 @@
 package ibm.cloudgarage.sfgpetclinic.services.map;
 
 import ibm.cloudgarage.sfgpetclinic.model.Pet;
-import ibm.cloudgarage.sfgpetclinic.services.CrudService;
+import ibm.cloudgarage.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
